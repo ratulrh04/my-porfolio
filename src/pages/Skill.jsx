@@ -1,12 +1,54 @@
+import SectionTitle from "../components/SectionTitle";
 
 
 const Skill = () => {
+
+    let skillTitle = {
+        name:'Skill'
+    }
     return (
         <div>
             <section id="Skill">
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas fugiat deleniti corporis earum quae repellat non quod nulla libero dolorem, in nisi autem tenetur ipsum recusandae. Tenetur ad debitis necessitatibus minus deserunt animi commodi provident repellat totam quia earum perferendis, recusandae itaque expedita culpa voluptas eius. Veniam quod eius harum tempore assumenda quam provident, laboriosam est explicabo atque, non velit illo cupiditate consequuntur eveniet quasi id animi, odio adipisci? Excepturi, reiciendis voluptatibus! Repellat a nisi similique assumenda, et hic? Architecto aliquam aut magni quam veniam quidem! Aliquid, porro! Aperiam obcaecati repellendus culpa consectetur fugit iusto, voluptatibus incidunt hic repellat, ex facilis sint ut nesciunt praesentium at, debitis atque non accusantium neque esse! Doloremque cumque molestias accusamus aut similique iste culpa, sint magnam magni velit aperiam aliquid earum dolorum excepturi voluptas provident repudiandae optio exercitationem esse atque delectus dignissimos iusto debitis nam. Voluptates dolores voluptatum natus sunt doloremque dolorem voluptatibus deleniti reprehenderit aliquid? Reiciendis quia, enim labore non adipisci, exercitationem numquam quibusdam possimus perspiciatis explicabo sit corporis ullam minus sed suscipit necessitatibus tempora officiis quod nam pariatur eveniet ratione cumque magnam et. Error rem maiores odit. Praesentium, atque reiciendis ratione nulla nostrum obcaecati quia! Excepturi voluptatem libero est ipsa maiores officia obcaecati incidunt quibusdam. Maiores quaerat fugit alias exercitationem nobis officia tenetur quam laborum ratione, temporibus aperiam eligendi reprehenderit reiciendis dicta hic. Eius optio dolorum quibusdam nostrum dolor dolores! Doloribus dignissimos suscipit, et, non quam debitis quisquam perspiciatis reprehenderit sint pariatur maxime neque fuga incidunt consequuntur exercitationem amet! Quasi deleniti aut, eos aliquam temporibus, numquam nemo, sit consectetur velit incidunt voluptatem modi? Ullam ab illum totam eius eligendi corrupti veniam quibusdam officia, eveniet dolorem deserunt. Harum impedit nobis minus eveniet ad eius, soluta dolores, explicabo beatae sequi ab facere cupiditate vel quod error? Illo ab minus odit delectus. Beatae, quasi. Corrupti, est nostrum ad eveniet aliquam architecto omnis. Cumque reiciendis explicabo, at sequi obcaecati repellendus voluptatum beatae sed! Excepturi deleniti, magni saepe sapiente nesciunt temporibus, est enim blanditiis natus harum nostrum praesentium ratione recusandae laudantium consequuntur, optio iusto ipsam porro impedit. Odio architecto voluptas eligendi fuga ea consequuntur aliquid accusantium laudantium dolore mollitia reprehenderit, commodi, laboriosam tempore facere at, velit esse ullam expedita alias. Amet natus illo, blanditiis repellendus nisi voluptatem cupiditate atque! Cumque dignissimos cupiditate laborum soluta, optio eum a aspernatur odit doloribus, libero quibusdam, excepturi quia. Repudiandae expedita consectetur unde perferendis pariatur, explicabo vel possimus corrupti minus temporibus accusantium vero quidem, id eveniet nulla harum asperiores ad dolor! Iure assumenda similique ipsam. Dolores illum quaerat dolore deleniti esse odit tenetur rem consequuntur fuga recusandae quam officia, sit nemo pariatur laboriosam reiciendis ipsum? Quo eius consequuntur eveniet reiciendis odio quos temporibus, velit, commodi veniam sequi ipsa recusandae optio repudiandae mollitia distinctio quibusdam minima. Repellat saepe pariatur quos omnis natus. Laborum ad amet optio recusandae explicabo itaque, natus facere repellat accusamus quasi. Accusamus fuga quod recusandae dolorem, ullam placeat reprehenderit necessitatibus quis totam. Architecto, voluptate fugiat. Incidunt maxime ea error, aspernatur debitis necessitatibus molestias inventore ut eum laborum quae nobis id.
-               </p>
+               <SectionTitle {...skillTitle}/>
+               <div className="skill-wrapper">
+                  <div className="container">
+                    <div className="row">
+                        <div className="inline-skill">
+                         <span>HTML5</span>
+                         <div className="html"></div> 
+                         <h4>90%</h4>
+                        </div>   
+                    </div>
+                    <div className="row">
+                      <div className="inline-skill">
+                         <span style={{paddingRight:'40px'}}>CSS3</span>
+                         <div className="css"></div>
+                         <h4>87%</h4>
+                      </div>
+                    </div>
+                    <div className="row">
+                     <div className="inline-skill">
+                       <span style={{paddingRight:'65px'}}>JS</span>
+                       <div className="javascript"></div>
+                       <h4>80%</h4>
+                      </div>
+                    </div>
+                     <div className="row">
+                       <div className="inline-skill">
+                       <span style={{paddingRight:'38px'}}>React</span>
+                       <div className="react"></div>
+                       <h4>85%</h4>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="inline-skill">
+                        <span style={{paddingRight:'40px'}}>Node</span>
+                       <div className="node"></div>
+                        <h4>75%</h4>
+                      </div>
+                    </div>
+                  </div>
+               </div>
             </section>       
         </div>
     );

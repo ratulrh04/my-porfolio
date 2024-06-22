@@ -9,7 +9,7 @@ const Nav = () => {
         <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container-fluid">
       <Link className="navbar-brand" to="/">
-        <img src="../../public/images/Title (1).png" alt="My-Logo" />
+        <img src="../../public/images/Title-logo.jpg" alt="My-Logo" />
       </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

@@ -1,4 +1,6 @@
 
+
+
 .secTitle-container{
     padding-top: 50px;
     padding-bottom:30px
@@ -8,10 +10,10 @@
     text-align: center;
     h1{
         font-size: 3.5rem;
-        color: #2dc5f8;
-        border-bottom: 2px solid #2dc5f8;
+        color: $mainBgColor;
+        border-bottom: 2px solid $mainBgColor;
         font-weight: 600;
-    }
+     }
 }
 .left-contant{
     img{

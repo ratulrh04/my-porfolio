@@ -7,12 +7,19 @@ import Skill from "./pages/Skill";
 
 
 const App = () => {
+// project section props
+let projectInfoOne = {
+  imgOne: '../../public/images/blog.jpg',
+  headingOne: 'Blog Desing',
+  paraOne: 'This project desing about a blog desing'
+}
+
   return (
     <div>
       <Home/>
       <About/>
       <Skill/>
-      <Project/>
+      <Project {...projectInfoOne}/>
       <Contact/>
     </div>
   );
